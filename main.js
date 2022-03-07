@@ -1,0 +1,1 @@
+"use strict";$(function(){(new WOW).init(),$(".btn-menu").click(function(n){$(".main-menu").toggleClass("active")}),$("html, body").click(function(n){0===$(n.target).closest(".main-menu, .btn-menu").length&&$(".main-menu").removeClass("active")})});
